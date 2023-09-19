@@ -65,7 +65,7 @@ RUN addgroup -g 101 -S nginx \
     && cp ngx_conf/*.conf /etc/nginx
 
 # Set default timezone (can be overridden with -e "TZ=Continent/City")
-ENV TZ=Europe/Amsterdam \
+ENV TZ=Asia/Shanghai \
     # Increase the minimum stack size to 2MB
     VIPS_MIN_STACK_SIZE=2m
 
